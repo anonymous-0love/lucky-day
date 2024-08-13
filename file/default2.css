@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../l2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    overflow: auto;
+  }
+  
+  /* Make the layout responsive */
+  #wrap {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1100px; /* Set a maximum width */
+    width: 100%; /* Take up the full width */
+    height: 100vh; /* Take up the full height */
+    margin-top: 10px;
+  }
+  
+  #text {
+    position: absolute;
+    width: 25%; /* Take up 25% of the parent width */
+    height: 80vh; /* Take up 80% of the parent height */
+    left: 35%; /* Position 35% from the left */
+    top: 10vh; /* Position 10% from the top */
+  }
+  
+  #code {
+    display: none;
+    color: rgb(196, 255, 255);
+    font-size: 1.2em; /* Use relative font size */
+    margin-top: 5vh; /* Use relative margin */
+    line-height: 1.5; /* Use relative line height */
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  #clock-box {
+    position: absolute;
+    left: 10%; /* Position 10% from the left */
+    top: 85vh; /* Position 85% from the top */
+    font-size: 2em; /* Use relative font size */
+    display: none;
+  }
+  
+  #clock-box a {
+    font-size: 2em; /* Use relative font size */
+    text-decoration: none;
+  }
+  
+  #clock {
+    margin-left: 4vw; /* Use relative margin */
+  }
+  
+  #clock .digit {
+    font-size: 6em; /* Use relative font size */
+  }
+  
+  #canvas {
+    margin: 0 auto;
+    width: 100%; /* Take up the full width */
+    height: 100vh; /* Take up the full height */
+  }
+  
+  #error {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10vh; /* Use relative margin */
+    display: none;
+  }
+  
+  .hand {
+    cursor: pointer;
+  }
+  
+  .say {
+    margin-left: 1vw; /* Use relative margin */
+  }
+  
+  .space {
+    margin-right: 10vw; /* Use relative margin */
+  }
+  
+  #message-box {
+    position: absolute;
+    margin-top: 40vh; /* Use relative margin */
+    font-size: 2em; /* Use relative font size */
+    font-family: monospace;
+  }
+  
+
+  
